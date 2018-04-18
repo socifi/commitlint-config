@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: sudo npm install -g npm@latest
+      - run: npm ci
+      - run: npm run lint
+  release:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: sudo npm install -g npm@latest
+      - run: npm ci
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: npm run release
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - release:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master

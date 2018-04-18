@@ -1,0 +1,34 @@
+{
+  "name": "@socifi/commitlint-config",
+  "version": "0.1.0",
+  "description": "Shareable config for linting commit messages.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/socifi/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/socifi/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/socifi/commitlint-config",
+  "author": "Michal Ozogán <michal@socifi.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "semantic-release",
+    "commitlint-config"
+  ],
+  "scripts": {
+    "lint": "eslint ./src",
+    "release": "semantic-release",
+    "commitmsg": "commitlint --extends ./src/index.js -e $GIT_PARAMS"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^6.1.3",
+    "commitlint": "^6.1.3",
+    "husky": "^0.14.3"
+  },
+  "devDependencies": {
+    "@socifi/semantic-release-config": "^0.3.0",
+    "@socifi/eslint-config": "^1.7.1"
+  }
+}
