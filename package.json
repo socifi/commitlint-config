@@ -14,7 +14,7 @@
   "author": "Michal Ozogán <michal@socifi.com>",
   "license": "Apache-2.0",
   "keywords": [
-    "semantic-release",
+    "commitlint",
     "commitlint-config"
   ],
   "scripts": {
