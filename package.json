@@ -19,16 +19,19 @@
   ],
   "scripts": {
     "lint": "eslint ./src",
+    "test": "jest",
     "release": "semantic-release",
     "commitmsg": "commitlint --extends ./src/index.js -e $GIT_PARAMS"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^6.1.3",
+    "@commitlint/lint": "^6.1.3",
     "commitlint": "^6.1.3",
     "husky": "^0.14.3"
   },
   "devDependencies": {
+    "@socifi/eslint-config": "^1.7.1",
     "@socifi/semantic-release-config": "^0.3.0",
-    "@socifi/eslint-config": "^1.7.1"
+    "jest": "^22.4.3"
   }
 }
