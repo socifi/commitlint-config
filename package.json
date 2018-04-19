@@ -18,7 +18,7 @@
     "commitlint-config"
   ],
   "scripts": {
-    "lint": "eslint ./src",
+    "lint": "eslint ./src ./tests",
     "test": "jest",
     "release": "semantic-release",
     "commitmsg": "commitlint --extends ./src/index.js -e $GIT_PARAMS"

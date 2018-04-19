@@ -28,6 +28,7 @@ Following types are allowed:
 - **Removed**
 - **Added**
 - **Depreciated**
+- **Docs**
 - **Test** - should not be in master branch
 - **InProgress** - should not be in master branch
 
