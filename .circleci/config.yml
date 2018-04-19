@@ -5,7 +5,6 @@ jobs:
       - image: socifi/node:git
     steps:
       - checkout
-      - run: sudo npm install -g npm@latest
       - run: npm ci
       - persist_to_workspace:
           root: .
