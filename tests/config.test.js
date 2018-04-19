@@ -2,7 +2,7 @@ const lint = require('@commitlint/lint');
 const config = require('./../src');
 
 function validateCommit(commit) {
-    return lint(commit, config.rules, {parserOpts: config.parserPreset.parserOpts})
+    return lint(commit, config.rules, { parserOpts: config.parserPreset.parserOpts });
 }
 
 describe('Test commit message linter settings', async () => {
@@ -23,5 +23,5 @@ describe('Test commit message linter settings', async () => {
 
     it('Validate type', async () => {
         expect((await validateCommit('InProgress: Abcd. CON-9')).errors).toEqual([]);
-    })
+    });
 });

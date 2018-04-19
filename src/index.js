@@ -2,7 +2,7 @@ const types = require('./types');
 
 module.exports = {
     rules: {
-        'type-enum': [2, 'always', types],
+        'type-enum': [2, 'always', Object.values(types)],
         'type-case': [2, 'always', 'pascal-case'],
         'type-empty': [2, 'never'],
         'scope-empty': [2, 'always'],
