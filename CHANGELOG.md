@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.6.0] 2018-04-19
+### Changed
+- [RND-7](https://socifi.atlassian.net/browse/RND-7) Use docker with latest npm for testing.
+
 ## [0.5.0] 2018-04-19
 ### Changed
 - [RND-6](https://socifi.atlassian.net/browse/RND-6) Export shares commit types as object.
