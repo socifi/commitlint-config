@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.7.0] 2018-04-23
+### Changed
+- [RND-9](https://socifi.atlassian.net/browse/RND-9) Use context in circleci
+
 ## [0.6.0] 2018-04-19
 ### Changed
 - [RND-7](https://socifi.atlassian.net/browse/RND-7) Use docker with latest npm for testing.
