@@ -12,7 +12,7 @@ module.exports = {
     parserPreset: {
         parserOpts: {
             // @todo change it to regex
-            issuePrefixes: ['AD-', 'AN-', 'BEA-', 'BUS-', 'COM-', 'CON-', 'SUP-', 'RND-'],
+            issuePrefixes: ['AD-', 'AN-', 'BEA-', 'BUS-', 'COM-', 'CON-', 'SUP-', 'RND-', 'DAS-'],
         },
     },
 };
