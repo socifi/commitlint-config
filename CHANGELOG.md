@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.8.0] 2018-06-06
+### Added
+- [DAS-6](https://socifi.atlassian.net/browse/DAS-6) Dashboard project reference
+
 ## [0.7.0] 2018-04-23
 ### Changed
 - [RND-9](https://socifi.atlassian.net/browse/RND-9) Use context in circleci
