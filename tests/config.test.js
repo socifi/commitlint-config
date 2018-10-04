@@ -24,8 +24,4 @@ describe('Test commit message linter settings', async () => {
     it('Validate reference', async () => {
         expect((await validateCommit('InProgress: CON-9 Abcd.')).errors).toEqual([]);
     });
-
-    it('Validate multiline commit', async () => {
-        expect((await validateCommit('Fixed: CON-9 Abcd.\nX: CON-10 Abcd.')).errors).toEqual([]);
-    });
 });
