@@ -1,3 +1,5 @@
 module.exports = {
-    'commit-msg': 'commitlint --extends ./src/index.js -e HUSKY_GIT_PARAMS',
+    hooks: {
+        'commit-msg': 'commitlint --extends ./src/index.js -E HUSKY_GIT_PARAMS',
+    },
 };
