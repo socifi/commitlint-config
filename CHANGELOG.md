@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.9.0] 2018-10-04
+### Changed
+- [RND-15](https://socifi.atlassian.net/browse/RND-15) Use regex for detecting reference in commits.
+
 ## [0.8.0] 2018-06-06
 ### Added
 - [DAS-6](https://socifi.atlassian.net/browse/DAS-6) Dashboard project reference
