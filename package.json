@@ -28,6 +28,7 @@
     "commitlint": "^7.1.2",
     "husky": "^1.1.0"
   },
+
   "devDependencies": {
     "@socifi/eslint-config": "^1.10.0",
     "@socifi/semantic-release-config": "^0.8.1",
