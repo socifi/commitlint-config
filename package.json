@@ -21,6 +21,7 @@
     "lint": "eslint ./src ./tests",
     "test": "jest",
     "release": "semantic-release",
+    "commitlint": "commitlint",
     "commitmsg": "commitlint --extends ./src/index.js -e $GIT_PARAMS"
   },
   "dependencies": {
