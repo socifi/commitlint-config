@@ -7,4 +7,6 @@ module.exports = {
     DOCS: 'Docs',
     TEST: 'Test',
     IN_PROGRESS: 'InProgress',
+    WIP: 'WIP', // Work In Progress
+    REFACTORED: 'Refactored',
 };

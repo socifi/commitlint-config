@@ -7,9 +7,9 @@ function validateCommit(commit) {
 
 describe('Test commit message linter settings', async () => {
     it('Requires type', async () => {
-        expect((await validateCommit(': Abcd. CON-9')).errors.length).toBeGreaterThan(0);
-        expect((await validateCommit('changed: Abcd. CON-9')).errors.length).toBeGreaterThan(0);
-        expect((await validateCommit('unknown: Abcd. CON-9')).errors.length).toBeGreaterThan(0);
+        expect((await validateCommit(': CON-9 Abcd.')).errors.length).toBeGreaterThan(0);
+        expect((await validateCommit('changed: CON-9 Abcd.')).errors.length).toBeGreaterThan(0);
+        expect((await validateCommit('unknown: CON-9 Abcd.')).errors.length).toBeGreaterThan(0);
     });
 
     it('Requires message', async () => {
@@ -21,7 +21,7 @@ describe('Test commit message linter settings', async () => {
         expect((await validateCommit('Fixed: Abcd')).errors.length).toBeGreaterThan(0);
     });
 
-    it('Validate type', async () => {
-        expect((await validateCommit('InProgress: Abcd. CON-9')).errors).toEqual([]);
+    it('Validate reference', async () => {
+        expect((await validateCommit('InProgress: CON-9 Abcd.')).errors).toEqual([]);
     });
 });

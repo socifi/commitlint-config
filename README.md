@@ -23,14 +23,16 @@ module.exports = {
 ### Type
 
 Following types are allowed:
+
 - **Changed**
 - **Fixed**
 - **Removed**
 - **Added**
 - **Depreciated**
 - **Docs**
+- **Refactored**
 - **Test** - should not be in master branch
-- **InProgress** - should not be in master branch
+- **InProgress, WIP** - should not be in master branch
 
 ### Reference
 
