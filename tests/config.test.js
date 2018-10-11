@@ -17,8 +17,8 @@ describe('Test commit message linter settings', async () => {
         expect((await validateCommit('xx')).errors.length).toBeGreaterThan(0);
     });
 
-    it('Requires reference', async () => {
-        expect((await validateCommit('Fixed: Abcd')).errors.length).toBeGreaterThan(0);
+    it('Warn if missing reference', async () => {
+        expect((await validateCommit('Fixed: Abcd')).warnings.length).toBeGreaterThan(0);
     });
 
     it('Validate reference', async () => {

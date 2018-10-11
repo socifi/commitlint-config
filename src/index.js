@@ -7,7 +7,7 @@ module.exports = {
         'type-empty': [2, 'never'],
         'scope-empty': [2, 'always'],
         'subject-empty': [2, 'never'],
-        'references-empty': [2, 'never'],
+        'references-empty': [1, 'never'],
     },
     parserPreset: {
         parserOpts: {

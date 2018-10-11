@@ -36,7 +36,7 @@ Following types are allowed:
 
 ### Reference
 
-Reference to JIRA issue. eg. CON-156
+Reference to JIRA issue. eg. CON-156. It is recommended but not required.
 
 ### Commit message
 
