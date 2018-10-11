@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] 2018-10-11
+### Changed
+- Reference is optional. Release first production version BREAKING
+
 ## [0.9.0] 2018-10-04
 ### Changed
 - [RND-15](https://socifi.atlassian.net/browse/RND-15) Use regex for detecting reference in commits.
