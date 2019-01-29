@@ -11,7 +11,7 @@ Create ```commitlint.config.js``` file and enter following config:
 
 ```javascript
 module.exports = {
-    extends: '@socifi/commitlint-config',
+    extends: ['@socifi/commitlint-config'],
 };
 
 ```
