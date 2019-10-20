@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] 2019-10-20
+### Fixed
+- Some linter errors
+- Usage guide - extends takes an array or lint fails to run 
+
+### Changed
+- Update libraries.
+
 ## [1.0.0] 2018-10-11
 ### Changed
 - Reference is optional. Release first production version BREAKING
