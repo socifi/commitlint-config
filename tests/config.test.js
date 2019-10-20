@@ -5,7 +5,7 @@ function validateCommit(commit) {
     return lint(commit, config.rules, { parserOpts: config.parserPreset.parserOpts });
 }
 
-describe('Test commit message linter settings', async () => {
+describe('Test commit message linter settings', () => {
     it('Requires type', async () => {
         expect((await validateCommit(': CON-9 Abcd.')).errors.length).toBeGreaterThan(0);
         expect((await validateCommit('changed: CON-9 Abcd.')).errors.length).toBeGreaterThan(0);
