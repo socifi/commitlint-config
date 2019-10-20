@@ -23,14 +23,14 @@
     "release": "semantic-release"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^7.1.2",
-    "@commitlint/lint": "^7.1.2",
-    "commitlint": "^7.1.2",
-    "husky": "^1.1.0"
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/lint": "^8.2.0",
+    "commitlint": "^8.2.0",
+    "husky": "^3.0.9"
   },
   "devDependencies": {
-    "@socifi/eslint-config": "^1.10.0",
-    "@socifi/semantic-release-config": "^0.9.0",
-    "jest": "^23.6.0"
+    "@socifi/eslint-config": "^2.9.0",
+    "@socifi/semantic-release-config": "^1.0.1",
+    "jest": "^24.9.0"
   }
 }
